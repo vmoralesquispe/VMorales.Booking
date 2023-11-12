@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VMorales.Booking.Domain\VMorales.Booking.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataBase\Bookings\Commands\" />
+    <Folder Include="DataBase\Bookings\Queries\" />
+  </ItemGroup>
+
+</Project>

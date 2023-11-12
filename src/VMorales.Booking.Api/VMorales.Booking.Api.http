@@ -1,0 +1,6 @@
+@VMorales.Booking.Api_HostAddress = http://localhost:5047
+
+GET {{VMorales.Booking.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
